@@ -12,6 +12,8 @@ vim.keymap.set("n", "<leader>e", "<cmd>Neotree focus<cr>", { desc = "NeoTree foc
 -- Tab key to move between buffers (yes i'm using the tab key for buffers it's a crime)
 vim.keymap.set("n", "<Tab>", ":bnext<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>", { noremap = true, silent = true })
+-- Toggles Markview
+vim.keymap.set("n", "<leader>cp", ":Markview<CR>", { noremap = true, silent = true })
 
 -- Insert mode:
 -- Ctrl + z for undo

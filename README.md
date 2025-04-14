@@ -19,15 +19,18 @@ My Alacritty config file can be seen [here](#alacritty-config).
 - `y`: Copy/yank the current selection
 - `p`: Paste
 - `<leader>p`: Shows the ring (copy) history
-- `<leader>e`: Toggle the NeoTree explorer
+- `<leader>e`: Focus / unfocus the NeoTree explorer
+- `q` (when in NeoTree): Closes the NeoTree explorer
 - `o`: Focus on the NeoTree explorer
 - `<leader>ft`: Enables the terminal (type `exit` to quit it)
 - `u`/`ctrl+z`: Undo
-- `ctrl+r`/`ctrl+y`: Redo
+- `ctrl+r` / `ctrl+y`: Redo
 - `m`: Add a mark
 - `ma`: Add a mark called `a`
 - `\a`: Go to the `a` mark
--
+- `<leader>cp`: Toggles Markdown preview (using Markview)
+- `<tab>`: Goes to the next buffer
+- `<shift><tab>`: Goes to the previous buffer
 
 ## Alacritty Config
 
