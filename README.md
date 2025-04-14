@@ -1,9 +1,13 @@
 # 💤 Hxpe's LazyVim config
 
-I'm using LazyVim on Windows with the Alacritty terminal emulator.
+I'm using LazyVim on Windows with the Alacritty terminal emulator.  
 My Alacritty config file can be seen [here](#alacritty-config).
 
 ## Cheatsheet
+- `j`: Go up
+- `k`: Go down
+- `h`: Go left
+- `l`: Go right
 - `gg`: Go to the top of the file
 - `G`: Go to the bottom of the file
 - `$`: Go to end of line
@@ -17,6 +21,10 @@ My Alacritty config file can be seen [here](#alacritty-config).
 - `<leader>ft`: Enables the terminal (type `exit` to quit it)
 - `u`/`ctrl+z`: Undo
 - `ctrl+r`/`ctrl+y`: Redo
+- `m`: Add a mark
+- `ma`: Add a mark called `a`
+- `\a`: Go to the `a` mark
+- 
 
 ## Alacritty Config
 
