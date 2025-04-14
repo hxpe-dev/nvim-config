@@ -4,6 +4,7 @@ I'm using LazyVim on Windows with the Alacritty terminal emulator.
 My Alacritty config file can be seen [here](#alacritty-config).
 
 ## Cheatsheet
+
 - `j`: Go up
 - `k`: Go down
 - `h`: Go left
@@ -12,19 +13,21 @@ My Alacritty config file can be seen [here](#alacritty-config).
 - `G`: Go to the bottom of the file
 - `$`: Go to end of line
 - `^`: Go to start of line
+- `ggVG`: Select all content of the file
 - `gcc`: Comment the current line
 - `gc`: Comment the current selection
 - `y`: Copy/yank the current selection
 - `p`: Paste
 - `<leader>p`: Shows the ring (copy) history
-- `<leader>e`: Toggle the explorer snacks
+- `<leader>e`: Toggle the NeoTree explorer
+- `o`: Focus on the NeoTree explorer
 - `<leader>ft`: Enables the terminal (type `exit` to quit it)
 - `u`/`ctrl+z`: Undo
 - `ctrl+r`/`ctrl+y`: Redo
 - `m`: Add a mark
 - `ma`: Add a mark called `a`
 - `\a`: Go to the `a` mark
-- 
+-
 
 ## Alacritty Config
 

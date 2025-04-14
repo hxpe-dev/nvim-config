@@ -8,7 +8,10 @@ vim.keymap.set("n", "<C-z>", "u", { noremap = true, silent = true })
 -- Ctrl + y for redo
 vim.keymap.set("n", "<C-y>", "<C-r>", { noremap = true, silent = true })
 -- Focus on neotree
-vim.keymap.set("n", "o", "<cmd>Neotree focus<cr>", { desc = "NeoTree focus" })
+vim.keymap.set("n", "<leader>e", "<cmd>Neotree focus<cr>", { desc = "NeoTree focus" })
+-- Tab key to move between buffers (yes i'm using the tab key for buffers it's a crime)
+vim.keymap.set("n", "<Tab>", ":bnext<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>", { noremap = true, silent = true })
 
 -- Insert mode:
 -- Ctrl + z for undo
