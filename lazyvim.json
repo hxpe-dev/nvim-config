@@ -1,7 +1,10 @@
 {
   "extras": [
     "lazyvim.plugins.extras.coding.mini-comment",
-    "lazyvim.plugins.extras.coding.yanky"
+    "lazyvim.plugins.extras.coding.yanky",
+    "lazyvim.plugins.extras.editor.neo-tree",
+    "lazyvim.plugins.extras.editor.telescope",
+    "lazyvim.plugins.extras.formatting.prettier"
   ],
   "install_version": 8,
   "news": {

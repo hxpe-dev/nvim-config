@@ -7,6 +7,8 @@
 vim.keymap.set("n", "<C-z>", "u", { noremap = true, silent = true })
 -- Ctrl + y for redo
 vim.keymap.set("n", "<C-y>", "<C-r>", { noremap = true, silent = true })
+-- Focus on neotree
+vim.keymap.set("n", "o", "<cmd>Neotree focus<cr>", { desc = "NeoTree focus" })
 
 -- Insert mode:
 -- Ctrl + z for undo
