@@ -11,8 +11,16 @@ My Alacritty config file can be seen [here](#alacritty-config).
 - `l`: Go right
 - `gg`: Go to the top of the file
 - `G`: Go to the bottom of the file
-- `$`: Go to end of line
-- `^`: Go to start of line
+- `$`: Go to end of the line
+- `0`: Go to start of the line
+- `^`: Go to the first character of the line
+- `%`: Go to matching bracket
+- `w`: Go to the beginning of the next word
+- `b`: Go to the beginning of the previous word
+- `e`: Go to the end of the next word
+- `f`: Go to the next occurence of the specified character
+- `F`: Go to the previous occurence of the specified character
+- `o`: Insert a new line at the bottom and go in insert mode
 - `ggVG`: Select all content of the file
 - `gcc`: Comment the current line
 - `gc`: Comment the current selection
